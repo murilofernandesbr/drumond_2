@@ -1159,7 +1159,7 @@ section.useful{
 }
 
 .about-us-image:before{
-    background:url(../images/home/video-content.jpg) no-repeat;
+    background:url(../images/circulomenor.png) no-repeat;
     height: 200px;
     width: 200px;
     position: absolute;
@@ -1261,10 +1261,11 @@ section.useful{
 
 section.statement{
   position: relative;
-  background: url('../images/home/statementbg.jpg') no-repeat;
+  background: url('../images/thumbvideotest.png') no-repeat;
   background-position: top right;
   background-size: cover;
   background-attachment: fixed;
+  background-size:50%;
 }
 
 section.statement:before{
@@ -1322,10 +1323,11 @@ section.statement:before{
 
 section.call-to-action{
   position: relative;
-  background: url(../images/home/counter.jpg) no-repeat;
+  background: url(../images/thumb_video.png) no-repeat;
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
+  background-size:50%;
 }
 
 section.call-to-action:before{
