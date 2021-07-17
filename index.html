@@ -23,6 +23,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css">
+    <style>
+
+        .lightbox{
+        display:none;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -117,7 +124,7 @@
     <!-- Slider Starts -->
     <section class="slider">
         <!-- Paradise Slider -->
-        <div id="fw_al_005" class="carousel ps_spread ps_control_hradius swipe_x ps_easeOutQuint" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+        <div  class="carousel ps_spread ps_control_hradius swipe_x ps_easeOutQuint" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
             
             <!-- Wrapper For Slides -->
             <div class="carousel-inner" role="listbox">
@@ -126,46 +133,14 @@
                 <div class="item active">
 
                     <!-- Slide Background -->
-                    <img src="images/clinic/slider/slider1.jpg" alt="fw_al_005_01" />
+                    <img style = "width:1920px;" src="images/slide.png" alt="fw_al_005_01" />
 
                     <!-- Slide Text Layer -->
-                    <div class="fw_al_005_slide">
-                        <h1 data-animation="animated zoomIn">The Highest Quality <span>Healthcare</span></h1>
-                        <p data-animation="animated zoomIn">Not just better healthcare, but a better healthcare experience.</p>
-                        <a href="#" data-animation="animated fadeInRight" class="btn"> Learn More +</a>
-                    </div>
+                   
                 </div>
                 <!-- End of Slide -->
 
-                <!-- Second Slide -->
-                <div class="item">
-
-                    <!-- Slide Background -->
-                    <img src="images/clinic/slider/slider2.jpg" alt="fw_al_005_02" />
-
-                    <!-- Slide Text Layer -->
-                    <div class="fw_al_005_slide fw_al_005_slide_right">
-                        <h1 data-animation="animated zoomIn">We Provide you <span>Full Medical Care</span></h1>
-                        <p data-animation="animated zoomIn">Passionate About Medicine. Compassionate About People.</p>
-                        <a href="#" data-animation="animated fadeInRight" class="btn"> Learn More +</a>
-                    </div>
-                </div>
-                <!-- End of Slide -->
-
-                <!-- Third Slide -->
-                <div class="item">
-
-                    <!-- Slide Background -->
-                    <img src="images/clinic/slider/slider3.jpg" alt="fw_al_005_03" />
-
-                    <!-- Slide Text Layer -->
-                    <div class="fw_al_005_slide">
-                        <h1 data-animation="animated zoomIn"><span>Trusted Medical Care</span> For Life.</h1>
-                        <p data-animation="animated zoomIn">Serving all people through exemplary health care, education, research and community outreach</p>
-                        <a href="#" data-animation="animated fadeInRight" class="btn"> Learn More +</a>
-                    </div>
-                </div>
-                <!-- End of Slide -->
+               
 
             </div><!-- End of Wrapper For Slides -->
 
@@ -248,7 +223,7 @@
                 </div>
                 <div class="col-md-5 col-sm-12 col-xs-12">
                     <div class="about-us-image pull-right">
-                        <img src="images/clinic/about-us-6.jpg" alt="Image">
+                        <img src="images/circulomaior.png" alt="Image">
                     </div>
                 </div>
             </div>
@@ -473,25 +448,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                
+                <div class="col-xs-12 ExibirLightBox">
+                    <a href = "#" data-toggle="modal" data-target="#exampleModal" >
                     <div class="special-item">
+
                         <div class="special-image">
-                            <img src="images/home/specialist2.jpg" alt="image">
-                            <div class="special-links">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                            <img src="images/foto.png" alt="image">
+                          
                             <div class="color-overlay"></div>
                         </div>
                         <div class="special-content">
-                            <h3>Sam Smiths</h3>
+                            <h3>Gilberto Giovanetti</h3>
                             <p>Dentist</p>
                         </div>
                     </div>
+                </a>
                 </div>
+                
                 <div class="col-xs-12">
                     <div class="special-item">
                         <div class="special-image">
@@ -571,6 +545,10 @@
             </div>
         </div>
     </section>
+
+    <div class="lightbox">
+        TESTE
+        </div>
     <!-- Specialist Ends -->
 
     <!-- Testimonial Starts -->
@@ -714,7 +692,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="news-item">
                         <div class="news-image">
-                            <img src="images/home/blog1.jpg" alt="Image">
+                            <img src="images/novidades.png" alt="Image">
                         </div>
                         <div class="news-content pad-top-20">
                             <div class="news-title">
@@ -817,7 +795,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <img src="images/home/bner.jpg" alt="" class="certified-banner">
+                        <img src="images/final.png" alt="" class="certified-banner">
                     </div>
                 </div>
             </div>
@@ -974,5 +952,16 @@
     <script src="js/plugin.js"></script>
     <script src="js/main.js"></script>
     <script src="js/custom-nav.js"></script>
+    <script>
+
+                $(document).ready(function (e) {
+                        $('.ExibirLightBox').hover(function (e) {
+                            $(".lightbox").css("display", "block");
+                        }
+                    )
+                    }); 
+
+    </script>
+  
 </body>
 </html>
